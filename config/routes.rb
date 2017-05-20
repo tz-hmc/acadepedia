@@ -9,7 +9,6 @@ Plots2::Application.routes.draw do
   mount GrapeSwaggerRails::Engine => '/api/d1ocs'
   #end
 
-
   resources :rusers
   resources :user_sessions
   resources :images
@@ -175,7 +174,6 @@ Plots2::Application.routes.draw do
   match 'tag/:id' => 'tag#show'
 
   match 'locations/form' => 'tag#location'
-
 
   match 'rsvp/:id' => 'notes#rsvp'
   match 'feed/liked' => 'notes#liked_rss'

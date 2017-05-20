@@ -1,5 +1,5 @@
-/* 
-Junction is provided under the OFL and is available at http://www.theleagueofmoveabletype.com/junction or https://github.com/theleagueof/junction 
+/*
+Junction is provided under the OFL and is available at http://www.theleagueofmoveabletype.com/junction or https://github.com/theleagueof/junction
 It was originally created by Caroline Hadilaksono: http://www.hadilaksono.com
 */
 @font-face {
@@ -64,7 +64,7 @@ h4,h5,h6, h1 small, h3 small {
 }
 
 #profile-fileinput {
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 #image_revision {
@@ -74,8 +74,8 @@ h4,h5,h6, h1 small, h3 small {
 /* fontawesome default color */
 a .fa { color:#222; }
 a .fa-white,
-.fa-white { 
-    color: white !important; 
+.fa-white {
+    color: white !important;
 }
 
 .label a {
@@ -130,8 +130,15 @@ body { padding-top: 70px; }
   color: white;
   padding-top: 19px;
   font-family: "Junction Light", lucida grande,lucida sans console,sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 14px !important;
+    padding-bottom: 7px !important;
+    height: 26px;
+}
+.navbar {min-height:26px !important;}
 
 @media (max-width: 768px) {
   #header #brand,
@@ -300,16 +307,16 @@ body { padding-top: 70px; }
 }
 
 .diff .diff-object,
-.diff .diff-object { 
-  padding: 3px; 
+.diff .diff-object {
+  padding: 3px;
 }
-.diff .diff-added { 
+.diff .diff-added {
   background: #afa;
   color: green;
 }
 .diff .diff-removed {
   color: #900;
-  background: #faa; 
+  background: #faa;
 }
 
 div.note .meta {
@@ -328,9 +335,9 @@ div.note .meta {
   color: #444;
 }
 
-div.note-show.moderated .pl-content, 
-div.note.moderated .content, 
-div.note.moderated .meta, 
+div.note-show.moderated .pl-content,
+div.note.moderated .content,
+div.note.moderated .meta,
 div.note.moderated h4 {
   -moz-opacity: 0.5;
   opacity:.5;
